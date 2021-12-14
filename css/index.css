@@ -1,0 +1,162 @@
+/*reseting everything*/
+:root{
+    --menu-item-hovered:orange;
+    --box-shadow-default: #858585;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px 2em;
+}
+/*the header part start*/
+header *{
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+}
+header{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+#site-title{
+    flex: 1;
+    display: inline-block;
+}
+header .menu-items-con{
+    vertical-align: top;
+    flex: 5;
+    display: inline-flex;
+}
+header .btns-con{
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    cursor: pointer;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn-bold{
+    background-color: black;
+    color: white;
+}
+.btn-light{
+    background-color: white;
+    color: black;
+}
+header .menu-items-con .menu-item{
+    padding: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+/**for drop downs*/
+.drop-down-btn{
+    padding: 0px 15px;
+}
+.drop-down-content li{
+    display: block;
+    padding: 0.7em;
+}
+.drop-down-content li+li{
+    border-top: 1px solid #eeeeee;
+}
+.drop-down-content li:hover,.menu-items-con .menu-item:hover{
+    background-color: var(--menu-item-hovered);
+}
+.drop-down-con{
+    cursor: pointer;
+    position: relative;
+}
+.drop-down-content{
+    box-shadow: var(--box-shadow-default) 1px 1px 5px;
+    display: none;
+    border-radius: 0.4em;
+    top: 1em;
+    text-align: center;
+    width: 7em;
+    padding: 0px ;
+    position: absolute;
+    right:-25px;
+    background-color: white ;
+    color: black;
+    z-index: 1;
+}
+.drop-down-con:hover > .drop-down-content{
+    display: inline-block;
+}
+#search-words{
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+#search-words:focus{
+    outline: none;
+}
+
+#search-icon{
+    position: relative;
+    vertical-align: baseline;
+    top:10px ;
+    left: 5px;
+}
+#search-words-con{
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* header part end*/
+/**banner part start***/
+
+
+.aside-banner{
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: #eee 1px 1px 1px;
+ }
+
+.aside-banner > *{
+    display: inline-block;
+}
+
+.banner-title{
+    display: block;
+    font-size: 2em;
+}
+.banner-text-desc{
+    display: block;
+    font-size: 1.2em;
+}
+.aside-left-section{
+    width: 40%;
+    color: white;
+    padding:2em 1em 3em 4em;
+}
+.aside-right-section{
+    width: 25em;
+    position: absolute;
+    right: 10vw;
+    top:-10px
+}
+.gradient-btn{
+    color: white;
+    padding: 15px;
+    border: 0;
+    background:linear-gradient(to right,#FB7B30,#A831A5);
+    background:-webkit-linear-gradient(to right,#FB7B30,#A831A5);
+    background:-moz-linear-gradient(to right,#FB7B30,#A831A5);
+}
+.aside-banner-wrapper{
+    position: relative;
+    margin: 15px 0px;
+}
+/**banner part end***/
+
