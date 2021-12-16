@@ -297,11 +297,37 @@ header .menu-items-con .menu-item{
 /*images gallery end*/
 /*footer start*/
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     border-radius: 15px;
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
     color: white;
-    padding: 2em;
+    padding: 1em;
+}
+footer > *{
+    flex: 1;
+}
+footer .section-left{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .section-right .col{
+    display: inline-block;
+    width: 30%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding:10px 0px;
+}
+#social-con a{
+    padding: 0px;
+    display: inline-block;
 }
 /*footer end*/
 
