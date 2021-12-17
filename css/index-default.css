@@ -331,15 +331,12 @@ header .menu-items-con .menu-item{
     display: inline-grid;
     grid-template-columns: 87px 373px 313px 423px 342px;/* 5 columns so 6 vertical lines*/
     grid-template-rows: 188px 34px 17px 37px 134px 45px 89px ;/* 8 rows so 9 horizontal lines*/
-    background-color: orange;
     margin: 150px 0px;
-}
-#section-images-gallery > *{
-    border: solid red 1px;
 }
 #img-blue-car{
     grid-row: 1 /3;
     grid-column: 1 / 3;
+    margin-left: 5px;
 }
 #img-mountains{
     grid-row: 1 /8;
@@ -364,6 +361,7 @@ header .menu-items-con .menu-item{
 #img-red-sky{
     grid-row: 2 / 9;
     grid-column: 5/6;
+    margin-top: 7px;
 }
 /*images gallery end*/
 /*.footer-top-area start*/
