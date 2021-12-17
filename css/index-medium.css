@@ -1,0 +1,46 @@
+body{
+    background-color: red;
+}
+/* for banner 1 start*/
+.banner1 .aside-banner{
+    height: auto;
+}
+.banner1 form > .btn{
+    margin: 0px;
+}
+/* for banner 1 end*/
+/* for grid start*/
+#section-grid div{
+    padding: 15px;
+}
+#section-grid img{
+    display: none;
+}
+#section-grid > div > h1{
+    font-size: 35px;
+}
+.section-grid-part-title{
+    font-size: 18px;
+    margin: 0px;
+}
+.section-grid-part-desc{
+    font-size: 16px;
+}
+#section-grid .btn{
+    width: 60%;
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+/* for grid end*/
+/* for images gallery start*/
+#section-images-gallery{
+    row-gap: 0px;
+}
+#section-images-gallery > *:nth-child(5){
+    padding-top: 15px;
+    top:0px;
+    right: 0px;
+    width: 100%;
+}
+/* for images gallery end*/
