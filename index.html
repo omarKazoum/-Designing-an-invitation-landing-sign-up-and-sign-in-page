@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>invitation landing</title>
+    <!-- for everything-->
     <link rel="stylesheet" type="text/css" href="css/index-default.css">
-    <link rel="stylesheet" type="text/css" href="css/index-medium.css" media="all and (max-width:1530px)">
-
+    <!-- for devices with less than 720px width-->
+    <link rel="stylesheet" type="text/css" href="css/index-medium.css" media="all and (max-width:720px)">
+    <!-- for devices with less than 480px width-->
+    <link rel="stylesheet" type="text/css" href="css/index-small.css" media="all and (max-width:480px)">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -121,13 +124,20 @@
             </aside>
         </section>
         <section id="section-images-gallery">
-            <img src="images/footer-1.png" alt="car">
-                <img src="images/footer-3.png" alt="car">
-                <img src="images/footer-2.png" alt="car">
-                <img src="images/footer-7.png" alt="car">
-                <img src="images/footer-5.png" alt="car">
-                <img src="images/footer-4.png" alt="car">
-                <img src="images/footer-6.png" alt="car">
+                <div class="col col1">
+                    <img src="images/footer-1.png" alt="blue car">
+                    <img src="images/footer-5.png" alt="big red house">
+                </div>
+                <div class="col col2">
+                    <img src="images/footer-3.png" alt="mountans">
+                </div><div class="col col3">
+                    <img src="images/footer-2.png" alt="red car">
+                    <img src="images/footer-4.png" alt="tow men with fire">
+                </div>
+                <div class="col col4">
+                    <img src="images/footer-7.png" alt="nature green">
+                    <img src="images/footer-6.png" alt="sky red">
+                </div>
         </section>
         </main>
         <footer>
