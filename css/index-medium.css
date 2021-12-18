@@ -1,46 +1,41 @@
 body{
-    background-color: red;
+    background-color: #FB7B30;
 }
-/* for banner 1 start*/
-.banner1 .aside-banner{
-    height: auto;
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
-.banner1 form > .btn{
-    margin: 0px;
-}
-/* for banner 1 end*/
-/* for grid start*/
-#section-grid div{
-    padding: 15px;
-}
-#section-grid img{
-    display: none;
-}
-#section-grid > div > h1{
-    font-size: 35px;
-}
-.section-grid-part-title{
-    font-size: 18px;
-    margin: 0px;
-}
-.section-grid-part-desc{
-    font-size: 16px;
-}
-#section-grid .btn{
-    width: 60%;
-    display: block;
-    text-align: center;
-    margin: 50px auto;
-}
-/* for grid end*/
-/* for images gallery start*/
-#section-images-gallery{
-    align-items: center;
-    width: 100%;
-}
-#section-images-gallery .col{
-    justify-content: center;
-    width: 100%;
+#site-title{
+    display: inline-block;
+    background-color: green;
 
 }
-/* for images gallery end*/
+#mobile-drop-down-con .mobile-drop-down-btn{
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+#mobile-drop-down-content{
+    display: inline-block;
+}
+
+#mobile-drop-down-con{
+    position: relative;
+    display: inline-block;
+    background-color: #A831A5;
+    position: absolute;
+}
+#drop-down-mobile-con{
+    background-color: #A831A5;
+}
+#drop-down-mobile-con > *{
+    display: inline-block;
+    background-color: green;
+
+}
+
+main ,footer{
+    display: none;
+}

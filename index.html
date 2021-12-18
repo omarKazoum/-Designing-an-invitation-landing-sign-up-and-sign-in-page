@@ -6,7 +6,7 @@
     <!-- for everything-->
     <link rel="stylesheet" type="text/css" href="css/index-default.css">
     <!-- for devices with less than 720px width-->
-    <link rel="stylesheet" type="text/css" href="css/index-medium.css" media="all and (max-width:720px)">
+    <link rel="stylesheet" type="text/css" href="css/index-medium.css" media="all and (max-width:1090px)">
     <!-- for devices with less than 480px width-->
     <link rel="stylesheet" type="text/css" href="css/index-small.css" media="all and (max-width:480px)">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,33 +16,38 @@
             <!-- text in the left corner-->
             <span id="site-title"><span>Invitation</span></span>
             <!-- the menu-->
-            <nav class="menu-items-con">
-                <ul class="menu-items-list">
-                    <li class="menu-item">Features</a></li>
-                    <li class="menu-item">Extension</a></li>
-                    <li class="menu-item drop-down-con">
-                        <span class="drop-down-btn">Referral Programs <img src="images/drop-dow-ic.svg" class="drop-down-ic"></span>
-                        <ul class="drop-down-content">
-                            <li class="drop-down-item"><a href="#">program 1</a></li>
-                            <li class="drop-down-item"><a href="#">program 2</a></li>
-                            <li class="drop-down-item"><a href="#">program 3</a></li>
+            <span id="mobile-drop-down-con" class="drop-down-con">
+                         <img src="images/menu_open.svg" class="mobile-drop-down-btn drop-down-btn">
+                <span id="mobile-drop-down-content" class="drop-down-content">
+                    <nav class="menu-items-con">
+                        <ul class="menu-items-list">
+                            <li class="menu-item">Features</a></li>
+                            <li class="menu-item">Extension</a></li>
+                            <li class="menu-item drop-down-con">
+                                <span class="drop-down-btn">Referral Programs <img src="images/drop-dow-ic.svg" class="drop-down-ic"></span>
+                                <ul class="drop-down-content">
+                                    <li class="drop-down-item"><a href="#">program 1</a></li>
+                                    <li class="drop-down-item"><a href="#">program 2</a></li>
+                                    <li class="drop-down-item"><a href="#">program 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item drop-down-con">
+                                <span class="drop-down-btn">People <img src="images/drop-dow-ic.svg" class="drop-down-ic"></span>
+                                <ul class="drop-down-content">
+                                    <li class="drop-down-item"><a href="#">people 1</a></li>
+                                    <li class="drop-down-item"><a href="#">people 2</a></li>
+                                    <li class="drop-down-item"><a href="#">people 3</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                    <li class="menu-item drop-down-con">
-                        <span class="drop-down-btn">People <img src="images/drop-dow-ic.svg" class="drop-down-ic"></span>
-                        <ul class="drop-down-content">
-                            <li class="drop-down-item"><a href="#">people 1</a></li>
-                            <li class="drop-down-item"><a href="#">people 2</a></li>
-                            <li class="drop-down-item"><a href="#">people 3</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <!-- buttons in the right corner-->
-            <section class="btns-con">
-                <a class="btn-login btn btn-light">Log in</a>
-                <a class="btn-sign-up btn btn-bold">Sign up</a>
-            </section>
+                    </nav>
+                    <!-- buttons in the right corner-->
+                    <section class="btns-con">
+                        <a class="btn-login btn btn-light">Log in</a>
+                        <a class="btn-sign-up btn btn-bold">Sign up</a>
+                    </section>
+                </span>
+            </span>
         </header>
         <main>
         <section class="aside-banner-wrapper banner1">
