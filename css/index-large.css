@@ -1,0 +1,185 @@
+/* for the header start*/
+#mobile-drop-down-content .menu-items-con{
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+    /*padding-left: 15px;*/
+}
+#mobile-drop-down-content .menu-items-con .menu-item{
+    margin: 0px 30px;
+}
+/* for the header end */
+/* for the banner 1 start*/
+
+.banner-title{
+    font-size: 48px;
+}
+.banner-text-desc{
+    font-size:20px;
+}
+.banner1 .aside-left-section{
+    width: 40%;
+}
+.banner1 .aside-right-section{
+    --portion:100%;
+    width: calc(var(--portion)*594px/100);
+    height: calc(var(--portion)*502pxpx/100) ;
+    position: absolute;
+    right: 66px;
+    top:50px;
+}
+@media all and (max-width:1430px) {
+    .aside-right-section{
+        --portion:80;
+        width: calc(594px*var(--portion)/100);
+        height: calc(502px*var(--portion)/100);
+        position: absolute;
+        right: 50px;
+        top:30px;
+    }
+}
+/* for the banner 1 end*/
+/**partners section start**/
+#section-partners{
+    height: 76px;
+    margin: 137px 0px;
+    justify-content: space-evenly;
+}
+/**partners section end**/
+
+/**grid section start**/
+#section-grid{
+    height:790px;
+    margin-bottom: 132px;
+}
+#section-grid > div > h1{
+    font-size: 48px;
+}
+#section-grid > div{
+    padding:0px  50px;
+}
+.section-grid-part-desc{
+    font-size: 20px;
+}
+.section-grid-part-title{
+    margin: initial;
+    font-size: 20px;
+}
+.section-grid-part{
+    margin:2em 0em;
+}
+/**grid section end**/
+/**second banner start**/
+.banner2 .aside-right-section{
+    top: -30px;
+    right:20px;
+    --portion:79;
+    width:calc(var(--portion)*832px/100);
+    height: calc(var(--portion)*519px/100);
+}
+.banner2 .btn{
+
+    text-align: center;
+}
+/**second banner end**/
+/*images gallery start*/
+#section-images-gallery{
+    width: 100%;
+    align-items: normal;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 90px 378px 318px 430px 348px;/* 5 columns so 6 vertical lines*/
+    grid-template-rows: 188px 34px 17px 37px 134px 45px 89px ;/* 8 rows so 9 horizontal lines*/
+    margin: 150px 0px;
+    justify-content: center;
+    margin: 50px 0px;
+    gap: 10px;
+}
+#section-images-gallery > img{
+    margin: 10px;
+    flex: 1;
+}
+
+#img-blue-car{
+    grid-row: 1 /3;
+    grid-column: 1 / 3;
+}
+#img-mountains{
+    grid-row: 1 /8;
+    grid-column: 3 / 4;
+}
+#img-red-car{
+    grid-row: 1 / 5;
+    grid-column: 4/ 5;
+}
+#img-nature-green{
+    grid-row: 1 / 2;
+    grid-column: 5/ 6;
+}
+#img-red-house{
+    grid-row: 3 / 4;
+    grid-column: 2/ 3;
+}
+#img-men-with-fire{
+    grid-row: 5 / 9;
+    grid-column: 4/ 5;
+}
+#img-red-sky{
+    grid-row: 2 / 9;
+    grid-column: 5/6;
+    margin-top: 7px;
+    position: relative;
+    top:8px;
+}
+/*images gallery end*/
+
+/*.footer-top-area start*/
+.footer-top-area{
+    padding:5em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.footer-top-area > *{
+    margin: 1px;
+    display: inline-block;
+}
+.footer-top-area .section-left{
+    order: unset;
+    align-self: center;
+}
+.footer-top-area .section-left .inner-wrapper{
+    width: 60%;
+    font-size: 18px;
+    margin: auto;
+    display: inline-block;
+    margin-top: 0px;
+}
+.footer-top-area .section-right .col{
+    display: inline-block;
+    width: 24.2%;
+    vertical-align: top;
+}
+
+.footer-top-area .section-right .col a{
+    padding:10px 0px;
+    font-size: 16px;
+}
+.footer-top-area .section-right h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer-top-area a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.footer-bootom-area{
+    width: 100%;
+}
+.footer-bootom-area p{
+    text-align: center;
+    color: #3D3D3D;
+}
+/*.footer-top-area end*/
