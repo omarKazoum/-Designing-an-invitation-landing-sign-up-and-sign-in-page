@@ -2,7 +2,7 @@
 /*reseting everything*/
 :root{
     --standard-gradient-btn-height:52px;
-    --menu-item-hovered:linear-gradient(to right,#FB7B30,#A831A5);
+    --menu-item-hovered:#FB7B30;
     --box-shadow-default: #858585;
 }
 *{
@@ -11,6 +11,7 @@
 
 body{
     padding: 0px 2em;
+    background-color: #A831A5;
 }
 /*globals*/
 

@@ -1,39 +1,79 @@
 body{
     background-color: #FB7B30;
+    padding: 0px 2em;
 }
 header{
-    position: relative;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 #site-title{
     display: inline-block;
-    background-color: green;
-
 }
 #mobile-drop-down-con .mobile-drop-down-btn{
-    border: 2px solid #000;
+    border: 2px solid rgba(0, 0, 0, 0.81);
     border-radius: 5px;
     padding: 5px;
+    cursor: pointer;
 }
-#mobile-drop-down-content{
-    display: inline-block;
-}
-
 #mobile-drop-down-con{
     position: relative;
     display: inline-block;
-    background-color: #A831A5;
+    flex: 2;
+}
+#mobile-drop-down-con > *{
+    display: block;
+    background-color: white;
+}
+#mobile-drop-down-content{
+    border-radius: 4px;
     position: absolute;
+    left: 2px;
+    top: 30px;
+    z-index: 2;
+    border:none;
+    padding: 15px;
 }
-#drop-down-mobile-con{
-    background-color: #A831A5;
+#mobile-drop-down-content{
+    display: none;
+    box-shadow: 1px 1px 10px var(--box-shadow-default);
+    padding: 10px;
 }
-#drop-down-mobile-con > *{
+#mobile-drop-down-con:hover #mobile-drop-down-content{
     display: inline-block;
-    background-color: green;
 
+}
+#mobile-drop-down-content .menu-items-list{
+    padding: 0px;
+    margin: 0;
+}
+#mobile-drop-down-content .menu-items-con{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mobile-drop-down-content .menu-item+.menu-item{
+    display: block;
+    border-top: #0C0C0C solid 1px;
+    margin: 0px;
+}
+
+#mobile-drop-down-content > .menu-items-con .menu-item .drop-down-content{
+    /*display: none;*/
+}
+#mobile-drop-down-content .menu-item .drop-down-content .drop-down-item{
+    display: block;
+    font-size: 0.97em;
+}
+#mobile-drop-down-content .menu-item .drop-down-content .drop-down-item+.drop-down-item{
+    border-top: 1px solid rgba(0, 0, 0, 0.19);
+    padding: 5px;
+}
+#mobile-drop-down-content .menu-items-con .drop-down-con .drop-down-content{
+    display: block;
+}
+.drop-down-content li:hover,.menu-items-con .menu-item:hover{
+    background: var(--menu-item-hovered);
 }
 
 main ,footer{
