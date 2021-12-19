@@ -1,5 +1,5 @@
 
-/*reseting everything*/
+/*globals*/
 :root{
     --standard-gradient-btn-height:52px;
     --menu-item-hovered:#FB7B30;
@@ -8,11 +8,6 @@
 *{
     box-sizing: border-box;
 }
-
-body{
-
-}
-/*globals*/
 /**for header start**/
 header{
     display: flex;
@@ -62,6 +57,7 @@ header{
 }
 #mobile-drop-down-content .menu-item{
     display: inline-block;
+    width: unset;
 }
 #mobile-drop-down-content .btns-con{
     display: inline-block;

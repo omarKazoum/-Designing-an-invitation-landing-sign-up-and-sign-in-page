@@ -90,9 +90,8 @@
     display: grid;
     grid-template-columns: 90px 378px 318px 430px 348px;/* 5 columns so 6 vertical lines*/
     grid-template-rows: 188px 34px 17px 37px 134px 45px 89px ;/* 8 rows so 9 horizontal lines*/
-    margin: 150px 0px;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 100px 0px;
     gap: 10px;
 }
 #section-images-gallery > img{
