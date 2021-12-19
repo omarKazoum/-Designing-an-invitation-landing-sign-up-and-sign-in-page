@@ -1,4 +1,6 @@
-
+body{
+    background-color:purple;
+}
 /*globals*/
 :root{
     --standard-gradient-btn-height:52px;
@@ -148,15 +150,14 @@ header{
     width: 50%;
 }
 .aside-right-section{
-    --portion:65;
+    --portion: 75;
     width: calc(594px*var(--portion)/100);
     height: calc(502px*var(--portion)/100);
     position: absolute;
     display: inline-block;
-    right: 110px;
-    top: 79px;
-}
-#search-words-con .btn,#search-words{
+    right: 66px;
+    top: 89px;
+}#search-words-con .btn,#search-words{
     font-size: 16px;
 }
 

@@ -1,5 +1,6 @@
 body{
-    padding: 5px 100px;
+    padding: 5px 50px;
+    background-color:green;
 }
 /* for the header start*/
 #mobile-drop-down-content .menu-items-con{
@@ -30,6 +31,9 @@ body{
     position: absolute;
     right: 66px;
     top:50px;
+}
+.banner1 .btn{
+    font-size: 16px;
 }
 @media all and (max-width:1430px) {
     .aside-right-section{
@@ -75,12 +79,16 @@ body{
 .section-grid-part{
     margin:2em 0em;
 }
+#section-grid > img{
+    width: 33%;
+}
+
 /**grid section end**/
 /**second banner start**/
 .banner2 .aside-right-section{
-    top: -50px;
-    right: 20px;
-    --portion: 107;
+    top: 14px;
+    right: -69px;
+    --portion: 81;
     width: calc(var(--portion)*832px/100);
     height: calc(var(--portion)*519px/100);
 }
