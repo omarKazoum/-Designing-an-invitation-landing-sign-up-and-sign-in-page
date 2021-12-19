@@ -29,6 +29,7 @@ form input:hover {
     border-color: #FB7B30;
 }
 #submit-btn{
+    margin-top: 25px;
     font-weight: bold;
     cursor: pointer;
     background-color: #F67636;
@@ -46,5 +47,3 @@ form input:hover {
     }
 
 }
-
-

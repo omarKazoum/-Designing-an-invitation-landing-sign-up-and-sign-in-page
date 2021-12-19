@@ -1,3 +1,6 @@
+body{
+    padding: 5px 100px;
+}
 /* for the header start*/
 #mobile-drop-down-content .menu-items-con{
     font-size: 18px;
@@ -38,6 +41,10 @@
         top:30px;
     }
 }
+.banner1 #search-words-con{
+    justify-content: flex-start;
+    gap:5px;
+}
 /* for the banner 1 end*/
 /**partners section start**/
 #section-partners{
@@ -71,15 +78,21 @@
 /**grid section end**/
 /**second banner start**/
 .banner2 .aside-right-section{
-    top: -30px;
-    right:20px;
-    --portion:79;
-    width:calc(var(--portion)*832px/100);
+    top: -50px;
+    right: 20px;
+    --portion: 107;
+    width: calc(var(--portion)*832px/100);
     height: calc(var(--portion)*519px/100);
 }
 .banner2 .btn{
-
     text-align: center;
+}
+.banner2 .banner-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.banner2 .aside-banner{
+    padding: 31px;
 }
 /**second banner end**/
 /*images gallery start*/
