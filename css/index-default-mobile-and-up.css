@@ -3,6 +3,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    padding: 0px;
 }
 main,footer,header{
     padding: 15px;
