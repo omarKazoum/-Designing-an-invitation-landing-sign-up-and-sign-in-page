@@ -94,8 +94,12 @@ header.menu-items-list{
 }
 header .menu-items-con .menu-item{
     padding: 10px;
-    margin: 0px 5px;
+    width: 100%;
+    margin: 0px 0px;
     cursor: pointer;
+}
+header .menu-items-con .menu-item:hover{
+    background-color: #FB7B30;
 }
 header .menu-items-con{
     font-size: 18px;
@@ -362,7 +366,7 @@ header .btns-con{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
     color: white;
@@ -373,6 +377,11 @@ header .btns-con{
     margin: 1px;
     display: inline-block;
     width: 100%;
+}
+.footer-top-area .section-right{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer-top-area .section-left{
     order: 2;
@@ -392,7 +401,6 @@ header .btns-con{
     width: 24.2%;
     vertical-align: top;
 }
-
 .footer-top-area .section-right .col a{
     padding:10px 0px;
     font-size: 16px;
