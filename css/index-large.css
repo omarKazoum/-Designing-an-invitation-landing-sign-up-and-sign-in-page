@@ -1,3 +1,7 @@
+body{
+    padding: 0px 50px;
+}
+
 /* for the header start*/
 #mobile-drop-down-content .menu-items-con{
     font-size: 18px;
@@ -19,6 +23,7 @@
 }
 .banner1 .aside-left-section{
     width: 40%;
+    padding: 50px;
 }
 .banner1 .aside-right-section{
     --portion:100%;
@@ -26,7 +31,7 @@
     height: calc(var(--portion)*502pxpx/100) ;
     position: absolute;
     right: 66px;
-    top:50px;
+    top:76px;
 }
 @media all and (max-width:1430px) {
     .aside-right-section{
@@ -66,7 +71,7 @@
     font-size: 20px;
 }
 .section-grid-part{
-    margin:2em 0em;
+    margin:3.5em 0em;
 }
 /**grid section end**/
 /**second banner start**/
@@ -77,9 +82,18 @@
     width:calc(var(--portion)*832px/100);
     height: calc(var(--portion)*519px/100);
 }
+.banner-title{
+    margin-top: 0px;
+}
+.banner2 .btns{
+    width: 70%;
+    font-weight: bold;
+}
 .banner2 .btn{
-
     text-align: center;
+}
+.banner2 .aside-banner > *{
+    margin:24px;
 }
 /**second banner end**/
 /*images gallery start*/
@@ -90,9 +104,8 @@
     display: grid;
     grid-template-columns: 90px 378px 318px 430px 348px;/* 5 columns so 6 vertical lines*/
     grid-template-rows: 188px 34px 17px 37px 134px 45px 89px ;/* 8 rows so 9 horizontal lines*/
-    margin: 150px 0px;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 100px 0px;
     gap: 10px;
 }
 #section-images-gallery > img{
