@@ -12,7 +12,9 @@ body{
     padding: 0px;
 }
 main,footer,header{
-    padding: 15px;
+    padding:5px;
+    width:100%;
+    box-sizing:border-box;
 }
 /**header start**/
 header *{
@@ -79,6 +81,9 @@ header{
     border-top: #0C0C0C solid 1px;
     margin: 0px;
 }
+#mobile-drop-down-content .menu-item > a{
+    padding:10px !important;
+}
 
 #mobile-drop-down-content > .menu-items-con .menu-item .drop-down-content{
     /*display: none;*/
@@ -86,10 +91,11 @@ header{
 #mobile-drop-down-content .menu-item .drop-down-content .drop-down-item{
     display: block;
     font-size: 0.97em;
+    padding: 5px;
 }
 #mobile-drop-down-content .menu-item .drop-down-content .drop-down-item+.drop-down-item{
     border-top: 1px solid rgba(0, 0, 0, 0.19);
-    padding: 5px;
+
 }
 #mobile-drop-down-content .menu-items-con .drop-down-con .drop-down-content{
     display: block;
