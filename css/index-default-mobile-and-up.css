@@ -209,7 +209,7 @@ header .btns-con{
     outline: none;
 }
 .banner1 form #search-words-con #search-icon{
-   position: relative;
+    position: relative;
     vertical-align: baseline;
     left: 10px;
     top: 10px;
@@ -298,7 +298,7 @@ header .btns-con{
 .section-grid-part-title{
     display: inline-block;
     list-style-type: upper-latin;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
 }
 #section-grid .btn{
@@ -314,6 +314,7 @@ header .btns-con{
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
     position: relative;
+    margin-bottom: 100px;
 }
 .banner2 .aside-banner > *{
     display: inline-block;
