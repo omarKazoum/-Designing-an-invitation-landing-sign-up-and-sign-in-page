@@ -86,7 +86,7 @@ body{
 /**second banner start**/
 .banner2 .aside-right-section{
     top: 14px;
-    right: -8px;
+    right: -69px;
     --portion: 81;
     width: calc(var(--portion)*832px/100);
     height: calc(var(--portion)*519px/100);
@@ -109,8 +109,8 @@ body{
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 90px 378px 318px 430px 348px;/* 5 columns so 6 vertical lines*/
-    grid-template-rows: 188px 34px 17px 37px 134px 45px 89px;/* 8 rows so 9 horizontal lines*/
-    /* justify-content: center; */
+    grid-template-rows: 188px 34px 17px 37px 134px 45px 89px ;/* 8 rows so 9 horizontal lines*/
+    justify-content: center;
     margin: 100px 0px;
     gap: 10px;
     transform: scale(1);
