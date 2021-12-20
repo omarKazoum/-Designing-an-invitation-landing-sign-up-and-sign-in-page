@@ -252,6 +252,9 @@ header .btns-con{
 /**partners section end**/
 
 /**grid section start**/
+.section-grid-part+.section-grid-part{
+    margin-top:3em;
+}
 #section-grid{
     display: flex;
     margin-bottom: 1em;
@@ -287,15 +290,18 @@ header .btns-con{
     top: 0.2em;
     /*transform: translate(10%,20%);*/
 }
+
 .section-grid-part-desc{
     color: #0C0C0C;
     font-size: 20px;
+    margin: 5px 0px;
 }
 .section-grid-part-check-ic{
     display: inline-block;
     vertical-align: middle;
 }
 .section-grid-part-title{
+    margin: 0px;
     display: inline-block;
     list-style-type: upper-latin;
     font-weight: bold;
