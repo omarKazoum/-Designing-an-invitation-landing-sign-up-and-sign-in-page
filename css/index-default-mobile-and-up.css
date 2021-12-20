@@ -99,7 +99,7 @@ header .menu-items-con .menu-item{
     margin: 0px 0px;
     cursor: pointer;
 }
-#mobile-drop-down-content a{
+#mobile-drop-down-content .menu-item a{
     padding: 10px 0px 10px 10px;
     display: block;
     padding: 5px;
