@@ -1,5 +1,11 @@
 /* importing the appropriate font**/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+:root{
+    --standard-gradient-btn-height:52px;
+    --menu-item-hovered:#FB7B30;
+    --box-shadow-default: #000000;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -88,20 +94,26 @@ header{
 #mobile-drop-down-content .menu-items-con .drop-down-con .drop-down-content{
     display: block;
 }
-.drop-down-content li:hover,.menu-items-con .menu-item:hover{
-    background: var(--menu-item-hovered);
-}
-header.menu-items-list{
-    padding: 0px;
-}
 header .menu-items-con .menu-item{
-    padding: 10px 0px 10px 10px;
     width: 100%;
     margin: 0px 0px;
     cursor: pointer;
 }
-header .menu-items-con .menu-item:hover{
-    background-color: #FB7B30;
+#mobile-drop-down-content a{
+    padding: 10px 0px 10px 10px;
+    display: block;
+    padding: 5px;
+}
+#mobile-drop-down-content  .menu-items-con .menu-item .drop-down-item> a{
+    font-size:15px;
+}
+#mobile-drop-down-content li.menu-item > a:hover,
+#mobile-drop-down-content  .menu-items-con .menu-item .drop-down-item> a:hover
+{
+    background: var(--menu-item-hovered);
+}
+header.menu-items-list{
+    padding: 0px;
 }
 header .menu-items-con{
     font-size: 18px;

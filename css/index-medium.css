@@ -78,8 +78,9 @@ header{
     border-top: 1px solid rgba(0, 0, 0, 0.19);
     padding: 5px;
 }
-.drop-down-content li:hover,.menu-items-con .menu-item:hover{
-    background: var(--menu-item-hovered);
+
+header .menu-items-con .menu-item:hover{
+    background-color: #FB7B30;
 }
 /* for header end*/
 
