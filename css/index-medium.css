@@ -120,6 +120,7 @@ header .menu-items-con .menu-item:hover{
 }
 #mobile-drop-down-content .menu-items-con .drop-down-con .drop-down-content {
     display: none;
+    overflow: hidden;
 }
 
 /* banners common start*/
@@ -138,16 +139,16 @@ header .menu-items-con .menu-item:hover{
 #search-words-con > *{
     vertical-align: middle;
 }
-.banner1 .aside-banner{
+.banner1 .banner-wrapper{
 
     border-radius: 15px;
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
 }
-.aside-left-section{
+.banner-left-section{
     width: 50%;
 }
-.aside-right-section{
+.banner-right-section{
     --portion: 75;
     width: calc(594px*var(--portion)/100);
     height: calc(502px*var(--portion)/100);
@@ -206,7 +207,7 @@ header .menu-items-con .menu-item:hover{
 }
 /**grid section end**/
 /**second banner start**/
-.banner2 .aside-right-section{
+.banner2 .banner-right-section{
     top: 0px;
     right:20px;
     --portion:62;

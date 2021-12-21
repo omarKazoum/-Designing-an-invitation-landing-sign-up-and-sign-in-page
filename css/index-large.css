@@ -20,10 +20,10 @@ body{
 .banner-text-desc{
     font-size:20px;
 }
-.banner1 .aside-left-section{
+.banner1 .banner-left-section{
     width: 40%;
 }
-.banner1 .aside-right-section{
+.banner1 .banner-right-section{
     --portion:109;
     width: calc(var(--portion)*594px/100);
     height: calc(var(--portion)*502pxpx/100) ;
@@ -35,7 +35,7 @@ body{
     font-size: 16px;
 }
 @media all and (max-width:1430px) {
-    .aside-right-section{
+    .banner-right-section{
         --portion:80;
         width: calc(594px*var(--portion)/100);
         height: calc(502px*var(--portion)/100);
@@ -84,7 +84,7 @@ body{
 
 /**grid section end**/
 /**second banner start**/
-.banner2 .aside-right-section{
+.banner2 .banner-right-section{
     top: 14px;
     right: -7px;
     --portion: 81;
@@ -98,7 +98,7 @@ body{
     margin-top: 0px;
     margin-bottom: 10px;
 }
-.banner2 .aside-banner{
+.banner2 .banner-wrapper{
     padding: 31px;
 }
 /**second banner end**/

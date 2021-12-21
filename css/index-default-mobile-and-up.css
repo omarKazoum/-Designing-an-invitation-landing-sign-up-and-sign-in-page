@@ -163,7 +163,7 @@ header .btns-con{
 /* banners common start*/
 .banner-title{
     display: block;
-    font-size: 25px;
+    /* font-size: 25px; */
     color: white;
 }
 .banner-text-desc{
@@ -173,11 +173,11 @@ header .btns-con{
 }
 /* banners common end*/
 /**banner1 part start***/
-.banner1 .aside-left-section{
+.banner1 .banner-left-section{
     color: white;
     padding:2em;
 }
-.aside-right-section{
+.banner-right-section{
     display: none;
     width: 594px;
     height: 502px;
@@ -193,7 +193,7 @@ header .btns-con{
     background:-webkit-linear-gradient(to right,#FB7B30,#A831A5);
     background:-moz-linear-gradient(to right,#FB7B30,#A831A5);
 }
-.banner1 .aside-banner-wrapper{
+.banner1 .banner{
     position: relative;
     margin: 15px 0px;
 }
@@ -232,7 +232,7 @@ header .btns-con{
 .banner1 #search-words-con > *{
     vertical-align: middle;
 }
-.banner1 .aside-banner{
+.banner1 .banner-wrapper{
     border-radius: 15px;
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
@@ -321,14 +321,14 @@ header .btns-con{
 }
 /**grid section end**/
 /**second banner start**/
-.banner2 .aside-banner{
+.banner2 .banner-wrapper{
     border-radius: 15px;
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
     position: relative;
     margin-bottom: 100px;
 }
-.banner2 .aside-banner > *{
+.banner2 .banner-wrapper > *{
     display: inline-block;
 }
 .icon-font{
@@ -364,7 +364,7 @@ header .btns-con{
     display: flex;
     height: var(--standard-gradient-btn-height);
 }
-.banner2 .aside-banner .btns > *{
+.banner2 .banner-wrapper .btns > *{
     margin: 0px 5px;
     flex: 1;
     display: inline-block;
@@ -372,10 +372,10 @@ header .btns-con{
     vertical-align: middle;
     height: var(--standard-gradient-btn-height);
 }
-.banner2 .aside-right-section{
+.banner2 .banner-right-section{
     display: none;
 }
-.banner2 .aside-banner{
+.banner2 .banner-wrapper{
     padding: 15px;
 }
 .banner2 p{

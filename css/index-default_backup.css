@@ -148,13 +148,13 @@ header .btns-con{
 #search-words-con > *{
     vertical-align: middle;
 }
-.banner1 .aside-banner{
+.banner1 .banner-wrapper{
     height: 380px;
     border-radius: 15px;
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
  }
-.banner1 .aside-banner > *{
+.banner1 .banner-wrapper > *{
     display: inline-block;
 }
 
@@ -166,12 +166,12 @@ header .btns-con{
     display: block;
     font-size:20px;
 }
-.aside-left-section{
+.banner-left-section{
     width: 40%;
     color: white;
     padding:2em 1em 3em 4em;
 }
-.aside-right-section{
+.banner-right-section{
     width: 594px;
     height: 502px;
     position: absolute;
@@ -186,7 +186,7 @@ header .btns-con{
     background:-webkit-linear-gradient(to right,#FB7B30,#A831A5);
     background:-moz-linear-gradient(to right,#FB7B30,#A831A5);
 }
-.aside-banner-wrapper{
+.banner{
     position: relative;
     margin: 15px 0px;
 }
@@ -265,12 +265,12 @@ header .btns-con{
 }
 /**grid section end**/
 /**second banner start**/
-.banner2 .aside-banner{
+.banner2 .banner-wrapper{
     border-radius: 15px;
     background-color: black;
     box-shadow: #eee 1px 1px 1px;
 }
-.banner2 .aside-banner > *{
+.banner2 .banner-wrapper > *{
     display: inline-block;
 }
 .banner-text-desc{
@@ -309,14 +309,14 @@ header .btns-con{
     display: flex;
     height: var(--standard-gradient-btn-height);
 }
-.banner2 .aside-banner .btns > *{
+.banner2 .banner-wrapper .btns > *{
     margin: 0px 5px;
     display: inline-block;
     height: var(--standard-gradient-btn-height);
     vertical-align: middle;
     height: var(--standard-gradient-btn-height);
 }
-.banner2 .aside-right-section{
+.banner2 .banner-right-section{
     width: 832px;
     right: 519px;
     position: absolute;
