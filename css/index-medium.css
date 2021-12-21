@@ -156,8 +156,8 @@ header .menu-items-con .menu-item:hover{
     right: 66px;
     top: 89px;
 }#search-words-con .btn,#search-words{
-    font-size: 16px;
-}
+     font-size: 16px;
+ }
 
 /**banner 1 part end***/
 
@@ -222,7 +222,7 @@ header .menu-items-con .menu-item:hover{
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 0.2fr 1.2fr 1fr 1.2fr 1fr;/* 5 columns so 6 vertical lines*/
-    grid-template-rows: 1fr 0.1fr 0.2fr 0.4fr 0.1fr;/* 8 rows so 9 horizontal lines*/
+    grid-template-rows: 1fr 0.1fr 1fr 0.2fr 0.1fr;/* 8 rows so 9 horizontal lines*/
     justify-content: center;
     margin: 100px 0px;
     gap: 10px;
