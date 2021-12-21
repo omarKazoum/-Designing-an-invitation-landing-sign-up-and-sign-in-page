@@ -24,12 +24,12 @@ body{
     width: 40%;
 }
 .banner1 .aside-right-section{
-    --portion:100%;
+    --portion:109;
     width: calc(var(--portion)*594px/100);
     height: calc(var(--portion)*502pxpx/100) ;
     position: absolute;
     right: 66px;
-    top:50px;
+    top:60px;
 }
 .banner1 .btn{
     font-size: 16px;
@@ -66,7 +66,7 @@ body{
     font-size: 48px;
 }
 #section-grid > div{
-    padding:0px  50px;
+    /*! padding:0px  50px; */
 }
 .section-grid-part-desc{
     font-size: 20px;

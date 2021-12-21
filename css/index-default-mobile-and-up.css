@@ -12,7 +12,7 @@ body{
     padding: 0px;
 }
 main,footer,header{
-    padding:5px;
+    padding:15px 5px;
     width:100%;
     box-sizing:border-box;
 }
